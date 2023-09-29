@@ -178,3 +178,26 @@ body {
     background-color: aqua;
     flex-direction: column;
 }
+
+/* NICKNAME html */
+
+.text-name {
+    font-family: 'Common Pixel', sans-serif;
+    color: white;
+    font-size: 55px;
+    margin-right: 0.5em;
+}
+
+.input-nick {
+    height: 2.5em;
+    width: 10em;
+    font-size: 40px;
+}
+
+.container-btn-nickname {
+    margin: 7em;
+    display: flex;
+    justify-content: space-around;
+    width: 40em;
+}
+
