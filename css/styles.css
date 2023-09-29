@@ -201,3 +201,9 @@ body {
     width: 40em;
 }
 
+.container-nicknameinput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
