@@ -174,22 +174,22 @@ body {
     transform: translateY(4px);
 }
 
-/* ABOUT html */ 
+/* ABOUT html */
 
 .rules {
-font-family: 'Public Pixel', sans-serif;
-height: 80vh;
-display: flex;
-justify-content: center;
-align-items: flex-end;
-flex-direction: column;
+    font-family: 'Public Pixel', sans-serif;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .rules-text {
- height: 4em;
- width: 78vw;
- color: white;
- font-size: 35px;
+    height: 4em;
+    width: 78vw;
+    color: white;
+    font-size: 35px;
 }
 
 .btn-back {
@@ -270,3 +270,44 @@ flex-direction: column;
 
 /* COLOR SELECT */
 
+.text-color-pick {
+    display: flex;
+    justify-content: center;
+}
+
+.choose-color-text {
+    color: white;
+    font-family: 'Public Pixel', sans-serif;
+    margin: 70px;
+    font-size: 25px;
+}
+
+.color-sample {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40em;
+}
+
+.color-copy {
+    border: solid 3px white;
+    height: 8em;
+    width: 8em;
+}
+
+.color-pick {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.color-picker {
+    height: 2em;
+    width: 5em;
+}
+
+.container-btn-colorpick{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
