@@ -293,6 +293,7 @@ body {
     border: solid 3px white;
     height: 8em;
     width: 8em;
+    border-radius: 20%;
 }
 
 .color-pick {
