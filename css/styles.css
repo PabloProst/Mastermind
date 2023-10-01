@@ -327,6 +327,34 @@ body {
     height: 51em;
     width: 25em;
     border: solid 1px green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chousen-colours-container{
+    display: flex;
+}
+
+.my-chosen-colours{
+    height: 4.3em;
+    width: 4.3em;
+    border: solid 2px yellowgreen;
+    margin: 15px;
+}
+
+.button-container-board{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-check-board{
+    scale: .8;
+}
+
+.btn-back-board{
+    scale: .8;
 }
 
 .board {
