@@ -311,7 +311,7 @@ body {
     cursor: pointer;
 }
 
-.container-btn-colorpick{
+.container-btn-colorpick {
     margin: 100px;
     display: flex;
     justify-content: space-between;
@@ -319,6 +319,40 @@ body {
 
 /* IN GAME BOARD */
 
+.container-board {
+    display: flex;
+}
+
+.my-colours {
+    height: 51em;
+    width: 25em;
+    border: solid 1px green;
+}
+
 .board {
-    
+    height: 51em;
+    width: 30em;
+    border: solid 1px white;
+}
+
+.row {
+    width: 30em;
+    height: 5em;
+    border: solid 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.board-box {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.score {
+    height: 51em;
+    width: 10em;
+    border: solid 1px blue;
 }
