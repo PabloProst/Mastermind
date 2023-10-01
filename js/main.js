@@ -1,32 +1,31 @@
-const colorPick1 = document.getElementById('colorPick1')
-const colorCopy1 = document.getElementById('colorCopy1')
+const colorCopy1 = document.getElementById('colorCopy1');
+const colorCopy2 = document.getElementById('colorCopy2');
+const colorCopy3 = document.getElementById('colorCopy3');
+const colorCopy4 = document.getElementById('colorCopy4');
+const arrayChosenColours = [];
 
-colorPick1.addEventListener('input', () => {
-	colorCopy1.style.backgroundColor = colorPick1.value;
-    console.log ("color copiado");
-})
+document.getElementById('colorPick1').addEventListener('input', () => {
+    colorCopy1.style.backgroundColor = document.getElementById('colorPick1').value;
+});
 
-const colorPick2 = document.getElementById('colorPick2')
-const colorCopy2 = document.getElementById('colorCopy2')
+document.getElementById('colorPick2').addEventListener('input', () => {
+    colorCopy2.style.backgroundColor = document.getElementById('colorPick2').value;
+});
 
-colorPick2.addEventListener('input', () => {
-	colorCopy2.style.backgroundColor = colorPick2.value;
-    console.log ("color copiado");
-})
+document.getElementById('colorPick3').addEventListener('input', () => {
+    colorCopy3.style.backgroundColor = document.getElementById('colorPick3').value;
+});
 
-const colorPick3 = document.getElementById('colorPick3')
-const colorCopy3 = document.getElementById('colorCopy3')
+document.getElementById('colorPick4').addEventListener('input', () => {
+    colorCopy4.style.backgroundColor = document.getElementById('colorPick4').value;
+});
 
-colorPick3.addEventListener('input', () => {
-	colorCopy3.style.backgroundColor = colorPick3.value;
-    console.log ("color copiado");
-})
+const saveColours = () => {
+    const color1 = document.getElementById('colorPick1').value;
+    const color2 = document.getElementById('colorPick2').value;
+    const color3 = document.getElementById('colorPick3').value;
+    const color4 = document.getElementById('colorPick4').value;
 
-const colorPick4 = document.getElementById('colorPick4')
-const colorCopy4 = document.getElementById('colorCopy4')
-
-colorPick4.addEventListener('input', () => {
-	colorCopy4.style.backgroundColor = colorPick4.value;
-    console.log ("color copiado");
-})
-
+    arrayChosenColours.push(color1, color2, color3, color4);
+    console.log(`Colores guardados ${arrayChosenColours}`);
+}
