@@ -1,3 +1,5 @@
+/* ELEGIR COLORES PARA JUGAR Y GUARDARLOS EN UN ARRAY */
+
 const colorCopy1 = document.getElementById('colorCopy1');
 const colorCopy2 = document.getElementById('colorCopy2');
 const colorCopy3 = document.getElementById('colorCopy3');
@@ -28,4 +30,11 @@ const saveColours = () => {
 
     arrayChosenColours.push(color1, color2, color3, color4);
     console.log(`Colores guardados ${arrayChosenColours}`);
+    console.log(arrayChosenColours);
 }
+
+function saveColoursAndRedirect() {
+    saveColours();
+    window.location.href = "../pages/board.html";
+}
+

@@ -321,12 +321,15 @@ body {
 
 .container-board {
     display: flex;
+    height: 54em;
+    width: 65em;
+    background-color: rgb(17, 17, 17);
+    border-radius: 5%;
 }
 
 .my-colours {
     height: 51em;
     width: 25em;
-    border: solid 1px green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -335,22 +338,49 @@ body {
 
 .chousen-colours-container{
     display: flex;
+    height: 20em;
+    width: 25em;
+    align-items: flex-end;
 }
 
 .my-chosen-colours{
-    height: 4.3em;
-    width: 4.3em;
-    border: solid 2px yellowgreen;
-    margin: 15px;
+    height: 5em;
+    width: 5em;
+    border: solid 3px rgb(255, 255, 255);
+    margin: 10px;
 }
 
 .button-container-board{
     display: flex;
-    flex-direction: column;
+    width: 25em;
+    height: 20em;
+    justify-content: center;
+}
+
+.container-btn-back{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 25em;
+    height: 10em;
+    margin-top: 100px;
 }
 
 .btn-check-board{
     scale: .8;
+    border-radius: 25%;
+    height: 5em;
+    width: 15em;
+    color: white;
+    background-color: black;
+    font-family: 'Public Pixel', sans-serif;
+    font-size: 15px;
+    border: solid 3px white;
+}
+
+.btn-check-board:hover {
+    cursor: pointer;
+    scale: .82;
 }
 
 .btn-back-board{
@@ -359,28 +389,44 @@ body {
 
 .board {
     height: 51em;
-    width: 30em;
+    width: 25em;
     border: solid 1px white;
 }
 
 .row {
-    width: 30em;
+    width: 25em;
     height: 5em;
-    border: solid 1px red;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .board-box {
-    height: 4em;
-    width: 4em;
+    height: 3em;
+    width: 3em;
     border-radius: 50%;
-    border: solid 1px white;
+    margin: -40px;
+    border: solid 2px white;
 }
 
 .score {
     height: 51em;
     width: 10em;
-    border: solid 1px blue;
+}
+
+.score-row {
+    width: 10em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-box {
+    height: 2em;
+    width: 2em;
+    border: solid 2px orange;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: black;
 }
