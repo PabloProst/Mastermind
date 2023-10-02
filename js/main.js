@@ -34,7 +34,27 @@ const saveColours = () => {
     localStorage.setItem('chosenColours', arrayChosenColoursString);
 }
 
+const randomWinningArray = (colours) => {
+    const combination = [];
+    for (let i = 0; i < 4; i++) {
+        const randomIndex = Math.floor(Math.random() * colours.length);
+        combination.push(colours[randomIndex]);
+    }
+    return combination;
+}
+
+const randomCombination = randomWinningArray(arrayChosenColours);
+console.log('Combinación aleatoria:', randomCombination);
+
+
 const saveColoursAndRedirect = () => {
     saveColours();
+
+    const randomCombination = randomWinningArray(arrayChosenColours);
+    console.log('Combinación aleatoria:', randomCombination);
+
     window.location.href = "../pages/board.html";
+    localStorage.setItem('winningCombination', JSON.stringify(randomCombination));
+
 }
+
