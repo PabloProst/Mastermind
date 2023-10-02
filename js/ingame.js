@@ -1,4 +1,10 @@
 /* PINTAR LOS DIVS DE LOS COLORES ELEGIDOS IN GAME */
+// Obtenemos la cadena del localStorage
+const arrayChosenColoursString = localStorage.getItem('chosenColours');
+
+// Convertimos la cadena JSON de vuelta a un array
+const arrayChosenColours = JSON.parse(arrayChosenColoursString);
+
 
 console.log(arrayChosenColours);
 
