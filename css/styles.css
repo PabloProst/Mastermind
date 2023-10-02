@@ -348,6 +348,7 @@ body {
     width: 5em;
     border: solid 3px rgb(255, 255, 255);
     margin: 10px;
+    cursor: pointer;
 }
 
 .button-container-board{

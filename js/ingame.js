@@ -1,13 +1,7 @@
 /* PINTAR LOS DIVS DE LOS COLORES ELEGIDOS IN GAME */
-// Obtenemos la cadena del localStorage
+
 const arrayChosenColoursString = localStorage.getItem('chosenColours');
-
-// Convertimos la cadena JSON de vuelta a un array
 const arrayChosenColours = JSON.parse(arrayChosenColoursString);
-
-
-console.log(arrayChosenColours);
-
 const miDiv1 = document.getElementById('colour-in-game1');
 const miDiv2 = document.getElementById('colour-in-game2');
 const miDiv3 = document.getElementById('colour-in-game3');
@@ -21,3 +15,23 @@ miDiv1.style.backgroundColor = arrayColour1;
 miDiv2.style.backgroundColor = arrayColour2;
 miDiv3.style.backgroundColor = arrayColour3;
 miDiv4.style.backgroundColor = arrayColour4;
+
+/* FUNCION DE PINTAR DIVS */
+
+let selectedColor = null;
+const colorSelectors = document.querySelectorAll('.my-chosen-colours');
+const boardBoxes = document.querySelectorAll('.board-box');
+
+colorSelectors.forEach(colorSelector => {
+    colorSelector.addEventListener('click', () => {
+        selectedColor = colorSelector.style.backgroundColor;
+    });
+});
+
+boardBoxes.forEach(boardBox => {
+    boardBox.addEventListener('click', () => {
+        if (selectedColor) {
+            boardBox.style.backgroundColor = selectedColor;
+        }
+    });
+});
