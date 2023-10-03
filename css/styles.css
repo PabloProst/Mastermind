@@ -242,9 +242,9 @@ body {
 /* NICKNAME html */
 
 .text-name {
-    font-family: 'Common Pixel', sans-serif;
+    font-family: 'Public Pixel', sans-serif;
     color: white;
-    font-size: 55px;
+    font-size: 42px;
     margin-right: 0.5em;
 }
 
@@ -349,6 +349,10 @@ body {
     border: solid 3px rgb(255, 255, 255);
     margin: 10px;
     cursor: pointer;
+}
+
+.my-chosen-colours:hover{
+    scale: .9;
 }
 
 .button-container-board{

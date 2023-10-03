@@ -10,8 +10,13 @@ const arrayColour1 = arrayChosenColours[0];
 const arrayColour2 = arrayChosenColours[1];
 const arrayColour3 = arrayChosenColours[2];
 const arrayColour4 = arrayChosenColours[3];
+
+/* TRAIGO EL ARRAY ALEATORIO GANADOR */
+
 const winningCombinationString = localStorage.getItem('winningCombination');
 const winningCombination = JSON.parse(winningCombinationString);
+
+/* ------------------------------------------------------------------------------ */
 
 miDiv1.style.backgroundColor = arrayColour1;
 miDiv2.style.backgroundColor = arrayColour2;
@@ -52,3 +57,11 @@ function checkRow() {
 }
 
 document.querySelector('.btn-check-board').addEventListener('click', checkRow);
+
+/* FUNCION DE CHECK */ 
+
+// const btncheck = document.getElementById ('checkbtn');
+
+// btncheck.addEventListener('click', () => {
+//     if ()
+// })

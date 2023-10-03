@@ -46,7 +46,6 @@ const randomWinningArray = (colours) => {
 const randomCombination = randomWinningArray(arrayChosenColours);
 console.log('Combinación aleatoria:', randomCombination);
 
-
 const saveColoursAndRedirect = () => {
     saveColours();
 
@@ -55,6 +54,11 @@ const saveColoursAndRedirect = () => {
 
     window.location.href = "../pages/board.html";
     localStorage.setItem('winningCombination', JSON.stringify(randomCombination));
-
 }
 
+/* TRAER NOMBRE DEL JUGADOR */
+
+const nickname = localStorage.getItem('playerName');
+const playerName = JSON.parse(nickname);
+
+console.log(playerName);
