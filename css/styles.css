@@ -408,7 +408,7 @@ body {
     width: 3em;
     border-radius: 20%;
     margin: -50px;
-    border: solid 2px white;
+    border: solid 5px white;
 }
 
 .score {
@@ -425,9 +425,9 @@ body {
 }
 
 .check-box {
-    height: 2em;
-    width: 2em;
-    border: solid 2px blue;
+    height: 1.8em;
+    width: 3em;
+    border: solid 4px rgb(163, 163, 163);
     border-radius: 50%;
     margin: 2px;
 }

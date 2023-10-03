@@ -63,3 +63,9 @@ document.querySelector('.btn-check-board').addEventListener('click', checkRow);
 const checkBtn = document.getElementById('checkbtn');
 let checkIndex = 1;
 
+document.getElementById('checkbtn').addEventListener('click', () => {
+     switch (checkIndex){
+        case "1": 
+        
+     }
+});
