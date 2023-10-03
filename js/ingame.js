@@ -1,3 +1,15 @@
+/* DECLARACION DE VARIABLES DE LOS CASILLEROS */
+
+const bb11 = document.getElementById('board-box-1-1');
+const bb12 = document.getElementById('board-box-1-2');
+const bb13 = document.getElementById('board-box-1-3');
+const bb14 = document.getElementById('board-box-1-4');
+
+const cb11 = document.getElementById('check-box-1-1');
+const cb12 = document.getElementById('check-box-1-2');
+const cb13 = document.getElementById('check-box-1-3');
+const cb14 = document.getElementById('check-box-1-4');
+
 /* PINTAR LOS DIVS DE LOS COLORES ELEGIDOS IN GAME */
 
 const arrayChosenColoursString = localStorage.getItem('chosenColours');
@@ -58,14 +70,44 @@ function checkRow() {
 
 document.querySelector('.btn-check-board').addEventListener('click', checkRow);
 
-/* FUNCION DE CHECK */ 
+/* FUNCION DE CHECK */
 
-const checkBtn = document.getElementById('checkbtn');
+function rgbToHex(rgb) {
+    const hex = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+    return `#${(1 << 24 | hex[1] << 16 | hex[2] << 8 | hex[3]).toString(16).slice(1)}`;
+}
+
+
+
+// const checkBtn = document.getElementById('checkbtn');
 let checkIndex = 1;
 
 document.getElementById('checkbtn').addEventListener('click', () => {
-     switch (checkIndex){
-        case "1": 
-        
-     }
+    console.log(winningCombination);
+    console.log(bb11.style.backgroundColor);
+    switch (checkIndex) {
+        case 1:
+            if (rgbToHex(bb11.style.backgroundColor) === winningCombination[0]) {
+                cb11.style.backgroundColor = 'purple';
+            } else {
+                cb11.style.backgroundColor = 'white';
+            }
+            if (rgbToHex(bb12.style.backgroundColor) === winningCombination[1]) {
+                cb12.style.backgroundColor = 'purple';
+            } else {
+                cb12.style.backgroundColor = 'white';
+            }
+            if (rgbToHex(bb13.style.backgroundColor) === winningCombination[2]) {
+                cb13.style.backgroundColor = 'purple';
+            } else {
+                cb13.style.backgroundColor = 'white';
+            }
+            if (rgbToHex(bb14.style.backgroundColor) === winningCombination[3]) {
+                cb14.style.backgroundColor = 'purple';
+            } else {
+                cb14.style.backgroundColor = 'white';
+            }
+            checkIndex = checkIndex + 1;
+            break;
+    }
 });
