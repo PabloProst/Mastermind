@@ -323,8 +323,6 @@ body {
     display: flex;
     height: 54em;
     width: 65em;
-    background-color: rgb(17, 17, 17);
-    border-radius: 5%;
 }
 
 .my-colours {
@@ -395,7 +393,6 @@ body {
 .board {
     height: 51em;
     width: 25em;
-    border: solid 1px white;
 }
 
 .row {
@@ -409,8 +406,8 @@ body {
 .board-box {
     height: 3em;
     width: 3em;
-    border-radius: 50%;
-    margin: -40px;
+    border-radius: 20%;
+    margin: -50px;
     border: solid 2px white;
 }
 
@@ -430,8 +427,7 @@ body {
 .check-box {
     height: 2em;
     width: 2em;
-    border: solid 2px orange;
+    border: solid 2px blue;
     border-radius: 50%;
-    margin: 3px;
-    background-color: black;
+    margin: 2px;
 }

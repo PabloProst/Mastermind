@@ -60,8 +60,6 @@ document.querySelector('.btn-check-board').addEventListener('click', checkRow);
 
 /* FUNCION DE CHECK */ 
 
-// const btncheck = document.getElementById ('checkbtn');
+const checkBtn = document.getElementById('checkbtn');
+let checkIndex = 1;
 
-// btncheck.addEventListener('click', () => {
-//     if ()
-// })
