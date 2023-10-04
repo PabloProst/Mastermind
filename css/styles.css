@@ -451,3 +451,45 @@ body {
     border-radius: 50%;
     margin: 2px;
 }
+
+/* WINNER HTML */
+
+.container-winner {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner-main{
+    height: 40em;
+    width: 40em;
+    background-color: black;
+    border-radius: 20%;
+    border: solid 3px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-winner{
+    font-family: 'Public Pixel', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.winner-main-2{
+    margin: -100px;
+    height: 20em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.btn-play-again {
+    scale: .6;
+}
