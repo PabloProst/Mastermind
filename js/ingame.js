@@ -198,38 +198,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
     switch (checkIndex) {
         case 1:
             if (rgbToHex(bb11.style.backgroundColor) === winningCombination[0]) {
-                cb11.style.backgroundColor = 'purple';
-                cb11.style.border = "thick solid #0000FF";
+                cb11.style.backgroundColor = 'green';
+                cb11.style.border = "thick solid #cafbfe";
             } else {
                 cb11.style.backgroundColor = 'white';
-                cb11.style.border = "thick solid #0000FF";
+                cb11.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb12.style.backgroundColor) === winningCombination[1]) {
-                cb12.style.backgroundColor = 'purple';
-                cb12.style.border = "thick solid #0000FF";
+                cb12.style.backgroundColor = 'green';
+                cb12.style.border = "thick solid #cafbfe";
             } else {
                 cb12.style.backgroundColor = 'white';
-                cb12.style.border = "thick solid #0000FF";
+                cb12.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb13.style.backgroundColor) === winningCombination[2]) {
-                cb13.style.backgroundColor = 'purple';
-                cb13.style.border = "thick solid #0000FF";
+                cb13.style.backgroundColor = 'green';
+                cb13.style.border = "thick solid #cafbfe";
             } else {
                 cb13.style.backgroundColor = 'white';
-                cb13.style.border = "thick solid #0000FF";
+                cb13.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb14.style.backgroundColor) === winningCombination[3]) {
-                cb14.style.backgroundColor = 'purple';
-                cb14.style.border = "thick solid #0000FF";
+                cb14.style.backgroundColor = 'green';
+                cb14.style.border = "thick solid #cafbfe";
             } else {
                 cb14.style.backgroundColor = 'white';
-                cb14.style.border = "thick solid #0000FF";
+                cb14.style.border = "thick solid #cafbfe";
             }
 
-            if (cb11.style.backgroundColor == 'purple' &&
-                cb12.style.backgroundColor == 'purple' &&
-                cb13.style.backgroundColor == 'purple' &&
-                cb14.style.backgroundColor == 'purple') {
+            if (cb11.style.backgroundColor == 'green' &&
+                cb12.style.backgroundColor == 'green' &&
+                cb13.style.backgroundColor == 'green' &&
+                cb14.style.backgroundColor == 'green') {
                 window.location.href = "../pages/win.html";
             }
 
@@ -240,37 +240,37 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 2:
             if (rgbToHex(bb21.style.backgroundColor) === winningCombination[0]) {
-                cb21.style.backgroundColor = 'purple';
-                cb21.style.border = "thick solid #0000FF";
+                cb21.style.backgroundColor = 'green';
+                cb21.style.border = "thick solid #cafbfe";
             } else {
                 cb21.style.backgroundColor = 'white';
-                cb21.style.border = "thick solid #0000FF";
+                cb21.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb22.style.backgroundColor) === winningCombination[1]) {
-                cb22.style.backgroundColor = 'purple';
-                cb22.style.border = "thick solid #0000FF";
+                cb22.style.backgroundColor = 'green';
+                cb22.style.border = "thick solid #cafbfe";
             } else {
                 cb22.style.backgroundColor = 'white';
-                cb22.style.border = "thick solid #0000FF";
+                cb22.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb23.style.backgroundColor) === winningCombination[2]) {
-                cb23.style.backgroundColor = 'purple';
-                cb23.style.border = "thick solid #0000FF";
+                cb23.style.backgroundColor = 'green';
+                cb23.style.border = "thick solid #cafbfe";
             } else {
                 cb23.style.backgroundColor = 'white';
-                cb23.style.border = "thick solid #0000FF";
+                cb23.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb24.style.backgroundColor) === winningCombination[3]) {
-                cb24.style.backgroundColor = 'purple';
-                cb24.style.border = "thick solid #0000FF";
+                cb24.style.backgroundColor = 'green';
+                cb24.style.border = "thick solid #cafbfe";
             } else {
                 cb24.style.backgroundColor = 'white';
-                cb24.style.border = "thick solid #0000FF";
+                cb24.style.border = "thick solid #cafbfe";
             }
-            if (cb21.style.backgroundColor == 'purple' &&
-            cb22.style.backgroundColor == 'purple' &&
-            cb23.style.backgroundColor == 'purple' &&
-            cb24.style.backgroundColor == 'purple') {
+            if (cb21.style.backgroundColor == 'green' &&
+            cb22.style.backgroundColor == 'green' &&
+            cb23.style.backgroundColor == 'green' &&
+            cb24.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
 
@@ -281,38 +281,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 3:
             if (rgbToHex(bb31.style.backgroundColor) === winningCombination[0]) {
-                cb31.style.backgroundColor = 'purple';
-                cb31.style.border = "thick solid #0000FF";
+                cb31.style.backgroundColor = 'green';
+                cb31.style.border = "thick solid #cafbfe";
             } else {
                 cb31.style.backgroundColor = 'white';
-                cb31.style.border = "thick solid #0000FF";
+                cb31.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb32.style.backgroundColor) === winningCombination[1]) {
-                cb32.style.backgroundColor = 'purple';
-                cb32.style.border = "thick solid #0000FF";
+                cb32.style.backgroundColor = 'green';
+                cb32.style.border = "thick solid #cafbfe";
             } else {
                 cb32.style.backgroundColor = 'white';
-                cb32.style.border = "thick solid #0000FF";
+                cb32.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb33.style.backgroundColor) === winningCombination[2]) {
-                cb33.style.backgroundColor = 'purple';
-                cb33.style.border = "thick solid #0000FF";
+                cb33.style.backgroundColor = 'green';
+                cb33.style.border = "thick solid #cafbfe";
             } else {
                 cb33.style.backgroundColor = 'white';
-                cb33.style.border = "thick solid #0000FF";
+                cb33.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb34.style.backgroundColor) === winningCombination[3]) {
-                cb34.style.backgroundColor = 'purple';
-                cb34.style.border = "thick solid #0000FF";
+                cb34.style.backgroundColor = 'green';
+                cb34.style.border = "thick solid #cafbfe";
             } else {
                 cb34.style.backgroundColor = 'white';
-                cb34.style.border = "thick solid #0000FF";
+                cb34.style.border = "thick solid #cafbfe";
             }
 
-            if (cb31.style.backgroundColor == 'purple' &&
-            cb32.style.backgroundColor == 'purple' &&
-            cb33.style.backgroundColor == 'purple' &&
-            cb34.style.backgroundColor == 'purple') {
+            if (cb31.style.backgroundColor == 'green' &&
+            cb32.style.backgroundColor == 'green' &&
+            cb33.style.backgroundColor == 'green' &&
+            cb34.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
             checkIndex = checkIndex + 1;
@@ -322,38 +322,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 4:
             if (rgbToHex(bb41.style.backgroundColor) === winningCombination[0]) {
-                cb41.style.backgroundColor = 'purple';
-                cb41.style.border = "thick solid #0000FF";
+                cb41.style.backgroundColor = 'green';
+                cb41.style.border = "thick solid #cafbfe";
             } else {
                 cb41.style.backgroundColor = 'white';
-                cb41.style.border = "thick solid #0000FF";
+                cb41.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb42.style.backgroundColor) === winningCombination[1]) {
-                cb42.style.backgroundColor = 'purple';
-                cb42.style.border = "thick solid #0000FF";
+                cb42.style.backgroundColor = 'green';
+                cb42.style.border = "thick solid #cafbfe";
             } else {
                 cb42.style.backgroundColor = 'white';
-                cb42.style.border = "thick solid #0000FF";
+                cb42.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb43.style.backgroundColor) === winningCombination[2]) {
-                cb43.style.backgroundColor = 'purple';
-                cb43.style.border = "thick solid #0000FF";
+                cb43.style.backgroundColor = 'green';
+                cb43.style.border = "thick solid #cafbfe";
             } else {
                 cb43.style.backgroundColor = 'white';
-                cb43.style.border = "thick solid #0000FF";
+                cb43.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb44.style.backgroundColor) === winningCombination[3]) {
-                cb44.style.backgroundColor = 'purple';
-                cb44.style.border = "thick solid #0000FF";
+                cb44.style.backgroundColor = 'green';
+                cb44.style.border = "thick solid #cafbfe";
             } else {
                 cb44.style.backgroundColor = 'white';
-                cb44.style.border = "thick solid #0000FF";
+                cb44.style.border = "thick solid #cafbfe";
             }
 
-            if (cb41.style.backgroundColor == 'purple' &&
-            cb42.style.backgroundColor == 'purple' &&
-            cb43.style.backgroundColor == 'purple' &&
-            cb44.style.backgroundColor == 'purple') {
+            if (cb41.style.backgroundColor == 'green' &&
+            cb42.style.backgroundColor == 'green' &&
+            cb43.style.backgroundColor == 'green' &&
+            cb44.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
             checkIndex = checkIndex + 1;
@@ -363,38 +363,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 5:
             if (rgbToHex(bb51.style.backgroundColor) === winningCombination[0]) {
-                cb51.style.backgroundColor = 'purple';
-                cb51.style.border = "thick solid #0000FF";
+                cb51.style.backgroundColor = 'green';
+                cb51.style.border = "thick solid #cafbfe";
             } else {
                 cb51.style.backgroundColor = 'white';
-                cb51.style.border = "thick solid #0000FF";
+                cb51.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb52.style.backgroundColor) === winningCombination[1]) {
-                cb52.style.backgroundColor = 'purple';
-                cb52.style.border = "thick solid #0000FF";
+                cb52.style.backgroundColor = 'green';
+                cb52.style.border = "thick solid #cafbfe";
             } else {
                 cb52.style.backgroundColor = 'white';
-                cb52.style.border = "thick solid #0000FF";
+                cb52.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb53.style.backgroundColor) === winningCombination[2]) {
-                cb53.style.backgroundColor = 'purple';
-                cb53.style.border = "thick solid #0000FF";
+                cb53.style.backgroundColor = 'green';
+                cb53.style.border = "thick solid #cafbfe";
             } else {
                 cb53.style.backgroundColor = 'white';
-                cb53.style.border = "thick solid #0000FF";
+                cb53.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb54.style.backgroundColor) === winningCombination[3]) {
-                cb54.style.backgroundColor = 'purple';
-                cb54.style.border = "thick solid #0000FF";
+                cb54.style.backgroundColor = 'green';
+                cb54.style.border = "thick solid #cafbfe";
             } else {
                 cb54.style.backgroundColor = 'white';
-                cb54.style.border = "thick solid #0000FF";
+                cb54.style.border = "thick solid #cafbfe";
             }
 
-            if (cb51.style.backgroundColor == 'purple' &&
-            cb52.style.backgroundColor == 'purple' &&
-            cb53.style.backgroundColor == 'purple' &&
-            cb54.style.backgroundColor == 'purple') {
+            if (cb51.style.backgroundColor == 'green' &&
+            cb52.style.backgroundColor == 'green' &&
+            cb53.style.backgroundColor == 'green' &&
+            cb54.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
             checkIndex = checkIndex + 1;
@@ -404,38 +404,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 6:
             if (rgbToHex(bb61.style.backgroundColor) === winningCombination[0]) {
-                cb61.style.backgroundColor = 'purple';
-                cb61.style.border = "thick solid #0000FF";
+                cb61.style.backgroundColor = 'green';
+                cb61.style.border = "thick solid #cafbfe";
             } else {
                 cb61.style.backgroundColor = 'white';
-                cb61.style.border = "thick solid #0000FF";
+                cb61.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb62.style.backgroundColor) === winningCombination[1]) {
-                cb62.style.backgroundColor = 'purple';
-                cb62.style.border = "thick solid #0000FF";
+                cb62.style.backgroundColor = 'green';
+                cb62.style.border = "thick solid #cafbfe";
             } else {
                 cb62.style.backgroundColor = 'white';
-                cb62.style.border = "thick solid #0000FF";
+                cb62.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb63.style.backgroundColor) === winningCombination[2]) {
-                cb63.style.backgroundColor = 'purple';
-                cb63.style.border = "thick solid #0000FF";
+                cb63.style.backgroundColor = 'green';
+                cb63.style.border = "thick solid #cafbfe";
             } else {
                 cb63.style.backgroundColor = 'white';
-                cb63.style.border = "thick solid #0000FF";
+                cb63.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb64.style.backgroundColor) === winningCombination[3]) {
-                cb64.style.backgroundColor = 'purple';
-                cb64.style.border = "thick solid #0000FF";
+                cb64.style.backgroundColor = 'green';
+                cb64.style.border = "thick solid #cafbfe";
             } else {
                 cb64.style.backgroundColor = 'white';
-                cb64.style.border = "thick solid #0000FF";
+                cb64.style.border = "thick solid #cafbfe";
             }
 
-            if (cb61.style.backgroundColor == 'purple' &&
-            cb62.style.backgroundColor == 'purple' &&
-            cb63.style.backgroundColor == 'purple' &&
-            cb64.style.backgroundColor == 'purple') {
+            if (cb61.style.backgroundColor == 'green' &&
+            cb62.style.backgroundColor == 'green' &&
+            cb63.style.backgroundColor == 'green' &&
+            cb64.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
             checkIndex = checkIndex + 1;
@@ -445,38 +445,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 7:
             if (rgbToHex(bb71.style.backgroundColor) === winningCombination[0]) {
-                cb71.style.backgroundColor = 'purple';
-                cb71.style.border = "thick solid #0000FF";
+                cb71.style.backgroundColor = 'green';
+                cb71.style.border = "thick solid #cafbfe";
             } else {
                 cb71.style.backgroundColor = 'white';
-                cb71.style.border = "thick solid #0000FF";
+                cb71.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb72.style.backgroundColor) === winningCombination[1]) {
-                cb72.style.backgroundColor = 'purple';
-                cb72.style.border = "thick solid #0000FF";
+                cb72.style.backgroundColor = 'green';
+                cb72.style.border = "thick solid #cafbfe";
             } else {
                 cb72.style.backgroundColor = 'white';
-                cb72.style.border = "thick solid #0000FF";
+                cb72.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb73.style.backgroundColor) === winningCombination[2]) {
-                cb73.style.backgroundColor = 'purple';
-                cb73.style.border = "thick solid #0000FF";
+                cb73.style.backgroundColor = 'green';
+                cb73.style.border = "thick solid #cafbfe";
             } else {
                 cb73.style.backgroundColor = 'white';
-                cb73.style.border = "thick solid #0000FF";
+                cb73.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb74.style.backgroundColor) === winningCombination[3]) {
-                cb74.style.backgroundColor = 'purple';
-                cb74.style.border = "thick solid #0000FF";
+                cb74.style.backgroundColor = 'green';
+                cb74.style.border = "thick solid #cafbfe";
             } else {
                 cb74.style.backgroundColor = 'white';
-                cb74.style.border = "thick solid #0000FF";
+                cb74.style.border = "thick solid #cafbfe";
             }
 
-            if (cb71.style.backgroundColor == 'purple' &&
-            cb72.style.backgroundColor == 'purple' &&
-            cb73.style.backgroundColor == 'purple' &&
-            cb74.style.backgroundColor == 'purple') {
+            if (cb71.style.backgroundColor == 'green' &&
+            cb72.style.backgroundColor == 'green' &&
+            cb73.style.backgroundColor == 'green' &&
+            cb74.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
             checkIndex = checkIndex + 1;
@@ -486,38 +486,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 8:
             if (rgbToHex(bb81.style.backgroundColor) === winningCombination[0]) {
-                cb81.style.backgroundColor = 'purple';
-                cb81.style.border = "thick solid #0000FF";
+                cb81.style.backgroundColor = 'green';
+                cb81.style.border = "thick solid #cafbfe";
             } else {
                 cb81.style.backgroundColor = 'white';
-                cb81.style.border = "thick solid #0000FF";
+                cb81.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb82.style.backgroundColor) === winningCombination[1]) {
-                cb82.style.backgroundColor = 'purple';
-                cb82.style.border = "thick solid #0000FF";
+                cb82.style.backgroundColor = 'green';
+                cb82.style.border = "thick solid #cafbfe";
             } else {
                 cb82.style.backgroundColor = 'white';
-                cb82.style.border = "thick solid #0000FF";
+                cb82.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb83.style.backgroundColor) === winningCombination[2]) {
-                cb83.style.backgroundColor = 'purple';
-                cb83.style.border = "thick solid #0000FF";
+                cb83.style.backgroundColor = 'green';
+                cb83.style.border = "thick solid #cafbfe";
             } else {
                 cb83.style.backgroundColor = 'white';
-                cb83.style.border = "thick solid #0000FF";
+                cb83.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb84.style.backgroundColor) === winningCombination[3]) {
-                cb84.style.backgroundColor = 'purple';
-                cb84.style.border = "thick solid #0000FF";
+                cb84.style.backgroundColor = 'green';
+                cb84.style.border = "thick solid #cafbfe";
             } else {
                 cb84.style.backgroundColor = 'white';
-                cb84.style.border = "thick solid #0000FF";
+                cb84.style.border = "thick solid #cafbfe";
             }
 
-            if (cb81.style.backgroundColor == 'purple' &&
-            cb82.style.backgroundColor == 'purple' &&
-            cb83.style.backgroundColor == 'purple' &&
-            cb84.style.backgroundColor == 'purple') {
+            if (cb81.style.backgroundColor == 'green' &&
+            cb82.style.backgroundColor == 'green' &&
+            cb83.style.backgroundColor == 'green' &&
+            cb84.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
             checkIndex = checkIndex + 1;
@@ -527,38 +527,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 9:
             if (rgbToHex(bb91.style.backgroundColor) === winningCombination[0]) {
-                cb91.style.backgroundColor = 'purple';
-                cb91.style.border = "thick solid #0000FF";
+                cb91.style.backgroundColor = 'green';
+                cb91.style.border = "thick solid #cafbfe";
             } else {
                 cb91.style.backgroundColor = 'white';
-                cb91.style.border = "thick solid #0000FF";
+                cb91.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb92.style.backgroundColor) === winningCombination[1]) {
-                cb92.style.backgroundColor = 'purple';
-                cb92.style.border = "thick solid #0000FF";
+                cb92.style.backgroundColor = 'green';
+                cb92.style.border = "thick solid #cafbfe";
             } else {
                 cb92.style.backgroundColor = 'white';
-                cb92.style.border = "thick solid #0000FF";
+                cb92.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb93.style.backgroundColor) === winningCombination[2]) {
-                cb93.style.backgroundColor = 'purple';
-                cb93.style.border = "thick solid #0000FF";
+                cb93.style.backgroundColor = 'green';
+                cb93.style.border = "thick solid #cafbfe";
             } else {
                 cb93.style.backgroundColor = 'white';
-                cb93.style.border = "thick solid #0000FF";
+                cb93.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb94.style.backgroundColor) === winningCombination[3]) {
-                cb94.style.backgroundColor = 'purple';
-                cb94.style.border = "thick solid #0000FF";
+                cb94.style.backgroundColor = 'green';
+                cb94.style.border = "thick solid #cafbfe";
             } else {
                 cb94.style.backgroundColor = 'white';
-                cb94.style.border = "thick solid #0000FF";
+                cb94.style.border = "thick solid #cafbfe";
             }
 
-            if (cb91.style.backgroundColor == 'purple' &&
-            cb92.style.backgroundColor == 'purple' &&
-            cb93.style.backgroundColor == 'purple' &&
-            cb94.style.backgroundColor == 'purple') {
+            if (cb91.style.backgroundColor == 'green' &&
+            cb92.style.backgroundColor == 'green' &&
+            cb93.style.backgroundColor == 'green' &&
+            cb94.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         }
             checkIndex = checkIndex + 1;
@@ -568,38 +568,38 @@ document.getElementById('checkbtn').addEventListener('click', () => {
 
         case 10:
             if (rgbToHex(bb101.style.backgroundColor) === winningCombination[0]) {
-                cb101.style.backgroundColor = 'purple';
-                cb101.style.border = "thick solid #0000FF";
+                cb101.style.backgroundColor = 'green';
+                cb101.style.border = "thick solid #cafbfe";
             } else {
                 cb101.style.backgroundColor = 'white';
-                cb101.style.border = "thick solid #0000FF";
+                cb101.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb52.style.backgroundColor) === winningCombination[1]) {
-                cb102.style.backgroundColor = 'purple';
-                cb102.style.border = "thick solid #0000FF";
+                cb102.style.backgroundColor = 'green';
+                cb102.style.border = "thick solid #cafbfe";
             } else {
                 cb102.style.backgroundColor = 'white';
-                cb102.style.border = "thick solid #0000FF";
+                cb102.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb103.style.backgroundColor) === winningCombination[2]) {
-                cb103.style.backgroundColor = 'purple';
-                cb103.style.border = "thick solid #0000FF";
+                cb103.style.backgroundColor = 'green';
+                cb103.style.border = "thick solid #cafbfe";
             } else {
                 cb103.style.backgroundColor = 'white';
-                cb103.style.border = "thick solid #0000FF";
+                cb103.style.border = "thick solid #cafbfe";
             }
             if (rgbToHex(bb104.style.backgroundColor) === winningCombination[3]) {
-                cb104.style.backgroundColor = 'purple';
-                cb104.style.border = "thick solid #0000FF";
+                cb104.style.backgroundColor = 'green';
+                cb104.style.border = "thick solid #cafbfe";
             } else {
                 cb104.style.backgroundColor = 'white';
-                cb104.style.border = "thick solid #0000FF";
+                cb104.style.border = "thick solid #cafbfe";
             }
 
-            if (cb101.style.backgroundColor == 'purple' &&
-            cb102.style.backgroundColor == 'purple' &&
-            cb103.style.backgroundColor == 'purple' &&
-            cb104.style.backgroundColor == 'purple') {
+            if (cb101.style.backgroundColor == 'green' &&
+            cb102.style.backgroundColor == 'green' &&
+            cb103.style.backgroundColor == 'green' &&
+            cb104.style.backgroundColor == 'green') {
             window.location.href = "../pages/win.html";
         } else {
             window.location.href = "../pages/loose.html";
