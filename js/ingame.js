@@ -601,6 +601,8 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             cb103.style.backgroundColor == 'purple' &&
             cb104.style.backgroundColor == 'purple') {
             window.location.href = "../pages/win.html";
+        } else {
+            window.location.href = "../pages/loose.html";
         }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
