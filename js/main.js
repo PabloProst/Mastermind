@@ -49,20 +49,21 @@ console.log('Combinación aleatoria:', randomCombination);
 const saveColoursAndRedirect = () => {
     saveColours();
 
-    if (arrayChosenColours[0]===arrayChosenColours[1] ||
-        arrayChosenColours[0]===arrayChosenColours[2] ||
-        arrayChosenColours[0]===arrayChosenColours[3] ||
-        arrayChosenColours[1]===arrayChosenColours[2] ||
-        arrayChosenColours[1]===arrayChosenColours[3] ||
-        arrayChosenColours[2]===arrayChosenColours[3]){
+    if (arrayChosenColours[0] === arrayChosenColours[1] ||
+        arrayChosenColours[0] === arrayChosenColours[2] ||
+        arrayChosenColours[0] === arrayChosenColours[3] ||
+        arrayChosenColours[1] === arrayChosenColours[2] ||
+        arrayChosenColours[1] === arrayChosenColours[3] ||
+        arrayChosenColours[2] === arrayChosenColours[3]) {
 
-            alert("Colours must be different between them.")
-            window.location.href = "../pages/colorselect.html";
-        } else {
+        alert("Colours must be different between them.")
+        window.location.href = "../pages/colorselect.html";
+    } else {
 
-    const randomCombination = randomWinningArray(arrayChosenColours);
-    console.log('Combinación aleatoria:', randomCombination);
+        const randomCombination = randomWinningArray(arrayChosenColours);
+        console.log('Combinación aleatoria:', randomCombination);
 
-    window.location.href = "../pages/board.html";
-    localStorage.setItem('winningCombination', JSON.stringify(randomCombination));
-}}
+        window.location.href = "../pages/board.html";
+        localStorage.setItem('winningCombination', JSON.stringify(randomCombination));
+    }
+}

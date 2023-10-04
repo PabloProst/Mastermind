@@ -268,11 +268,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb24.style.border = "thick solid #cafbfe";
             }
             if (cb21.style.backgroundColor == 'green' &&
-            cb22.style.backgroundColor == 'green' &&
-            cb23.style.backgroundColor == 'green' &&
-            cb24.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb22.style.backgroundColor == 'green' &&
+                cb23.style.backgroundColor == 'green' &&
+                cb24.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
 
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
@@ -310,11 +310,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb31.style.backgroundColor == 'green' &&
-            cb32.style.backgroundColor == 'green' &&
-            cb33.style.backgroundColor == 'green' &&
-            cb34.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb32.style.backgroundColor == 'green' &&
+                cb33.style.backgroundColor == 'green' &&
+                cb34.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 3");
@@ -351,11 +351,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb41.style.backgroundColor == 'green' &&
-            cb42.style.backgroundColor == 'green' &&
-            cb43.style.backgroundColor == 'green' &&
-            cb44.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb42.style.backgroundColor == 'green' &&
+                cb43.style.backgroundColor == 'green' &&
+                cb44.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 4");
@@ -392,11 +392,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb51.style.backgroundColor == 'green' &&
-            cb52.style.backgroundColor == 'green' &&
-            cb53.style.backgroundColor == 'green' &&
-            cb54.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb52.style.backgroundColor == 'green' &&
+                cb53.style.backgroundColor == 'green' &&
+                cb54.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 5");
@@ -433,11 +433,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb61.style.backgroundColor == 'green' &&
-            cb62.style.backgroundColor == 'green' &&
-            cb63.style.backgroundColor == 'green' &&
-            cb64.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb62.style.backgroundColor == 'green' &&
+                cb63.style.backgroundColor == 'green' &&
+                cb64.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 6");
@@ -474,11 +474,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb71.style.backgroundColor == 'green' &&
-            cb72.style.backgroundColor == 'green' &&
-            cb73.style.backgroundColor == 'green' &&
-            cb74.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb72.style.backgroundColor == 'green' &&
+                cb73.style.backgroundColor == 'green' &&
+                cb74.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 7");
@@ -515,11 +515,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb81.style.backgroundColor == 'green' &&
-            cb82.style.backgroundColor == 'green' &&
-            cb83.style.backgroundColor == 'green' &&
-            cb84.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb82.style.backgroundColor == 'green' &&
+                cb83.style.backgroundColor == 'green' &&
+                cb84.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 8");
@@ -556,11 +556,11 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb91.style.backgroundColor == 'green' &&
-            cb92.style.backgroundColor == 'green' &&
-            cb93.style.backgroundColor == 'green' &&
-            cb94.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        }
+                cb92.style.backgroundColor == 'green' &&
+                cb93.style.backgroundColor == 'green' &&
+                cb94.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 9");
@@ -597,13 +597,13 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             if (cb101.style.backgroundColor == 'green' &&
-            cb102.style.backgroundColor == 'green' &&
-            cb103.style.backgroundColor == 'green' &&
-            cb104.style.backgroundColor == 'green') {
-            window.location.href = "../pages/win.html";
-        } else {
-            window.location.href = "../pages/loose.html";
-        }
+                cb102.style.backgroundColor == 'green' &&
+                cb103.style.backgroundColor == 'green' &&
+                cb104.style.backgroundColor == 'green') {
+                window.location.href = "../pages/win.html";
+            } else {
+                window.location.href = "../pages/loose.html";
+            }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 10");
