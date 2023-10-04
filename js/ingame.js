@@ -225,12 +225,20 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb14.style.backgroundColor = 'white';
                 cb14.style.border = "thick solid #0000FF";
             }
+
+            if (cb11.style.backgroundColor == 'purple' &&
+                cb12.style.backgroundColor == 'purple' &&
+                cb13.style.backgroundColor == 'purple' &&
+                cb14.style.backgroundColor == 'purple') {
+                window.location.href = "../pages/win.html";
+            }
+
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 1");
             break;
 
-            case 2:
+        case 2:
             if (rgbToHex(bb21.style.backgroundColor) === winningCombination[0]) {
                 cb21.style.backgroundColor = 'purple';
                 cb21.style.border = "thick solid #0000FF";
@@ -259,12 +267,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb24.style.backgroundColor = 'white';
                 cb24.style.border = "thick solid #0000FF";
             }
+            if (cb21.style.backgroundColor == 'purple' &&
+            cb22.style.backgroundColor == 'purple' &&
+            cb23.style.backgroundColor == 'purple' &&
+            cb24.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
+
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 2");
             break;
 
-            case 3:
+        case 3:
             if (rgbToHex(bb31.style.backgroundColor) === winningCombination[0]) {
                 cb31.style.backgroundColor = 'purple';
                 cb31.style.border = "thick solid #0000FF";
@@ -293,12 +308,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb34.style.backgroundColor = 'white';
                 cb34.style.border = "thick solid #0000FF";
             }
+
+            if (cb31.style.backgroundColor == 'purple' &&
+            cb32.style.backgroundColor == 'purple' &&
+            cb33.style.backgroundColor == 'purple' &&
+            cb34.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 3");
             break;
 
-            case 4:
+        case 4:
             if (rgbToHex(bb41.style.backgroundColor) === winningCombination[0]) {
                 cb41.style.backgroundColor = 'purple';
                 cb41.style.border = "thick solid #0000FF";
@@ -327,12 +349,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb44.style.backgroundColor = 'white';
                 cb44.style.border = "thick solid #0000FF";
             }
+
+            if (cb41.style.backgroundColor == 'purple' &&
+            cb42.style.backgroundColor == 'purple' &&
+            cb43.style.backgroundColor == 'purple' &&
+            cb44.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 4");
             break;
 
-            case 5:
+        case 5:
             if (rgbToHex(bb51.style.backgroundColor) === winningCombination[0]) {
                 cb51.style.backgroundColor = 'purple';
                 cb51.style.border = "thick solid #0000FF";
@@ -361,12 +390,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb54.style.backgroundColor = 'white';
                 cb54.style.border = "thick solid #0000FF";
             }
+
+            if (cb51.style.backgroundColor == 'purple' &&
+            cb52.style.backgroundColor == 'purple' &&
+            cb53.style.backgroundColor == 'purple' &&
+            cb54.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 5");
             break;
 
-            case 6:
+        case 6:
             if (rgbToHex(bb61.style.backgroundColor) === winningCombination[0]) {
                 cb61.style.backgroundColor = 'purple';
                 cb61.style.border = "thick solid #0000FF";
@@ -395,12 +431,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb64.style.backgroundColor = 'white';
                 cb64.style.border = "thick solid #0000FF";
             }
+
+            if (cb61.style.backgroundColor == 'purple' &&
+            cb62.style.backgroundColor == 'purple' &&
+            cb63.style.backgroundColor == 'purple' &&
+            cb64.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 6");
             break;
 
-            case 7:
+        case 7:
             if (rgbToHex(bb71.style.backgroundColor) === winningCombination[0]) {
                 cb71.style.backgroundColor = 'purple';
                 cb71.style.border = "thick solid #0000FF";
@@ -429,12 +472,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb74.style.backgroundColor = 'white';
                 cb74.style.border = "thick solid #0000FF";
             }
+
+            if (c71.style.backgroundColor == 'purple' &&
+            cb72.style.backgroundColor == 'purple' &&
+            cb73.style.backgroundColor == 'purple' &&
+            cb74.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 7");
             break;
 
-            case 8:
+        case 8:
             if (rgbToHex(bb81.style.backgroundColor) === winningCombination[0]) {
                 cb81.style.backgroundColor = 'purple';
                 cb81.style.border = "thick solid #0000FF";
@@ -463,12 +513,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb84.style.backgroundColor = 'white';
                 cb84.style.border = "thick solid #0000FF";
             }
+
+            if (cb81.style.backgroundColor == 'purple' &&
+            cb82.style.backgroundColor == 'purple' &&
+            cb83.style.backgroundColor == 'purple' &&
+            cb84.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 8");
             break;
 
-            case 9:
+        case 9:
             if (rgbToHex(bb91.style.backgroundColor) === winningCombination[0]) {
                 cb91.style.backgroundColor = 'purple';
                 cb91.style.border = "thick solid #0000FF";
@@ -497,12 +554,19 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb94.style.backgroundColor = 'white';
                 cb94.style.border = "thick solid #0000FF";
             }
+
+            if (cb91.style.backgroundColor == 'purple' &&
+            cb92.style.backgroundColor == 'purple' &&
+            cb93.style.backgroundColor == 'purple' &&
+            cb94.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 9");
             break;
 
-            case 10:
+        case 10:
             if (rgbToHex(bb101.style.backgroundColor) === winningCombination[0]) {
                 cb101.style.backgroundColor = 'purple';
                 cb101.style.border = "thick solid #0000FF";
@@ -531,6 +595,13 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb104.style.backgroundColor = 'white';
                 cb104.style.border = "thick solid #0000FF";
             }
+
+            if (cb101.style.backgroundColor == 'purple' &&
+            cb102.style.backgroundColor == 'purple' &&
+            cb103.style.backgroundColor == 'purple' &&
+            cb104.style.backgroundColor == 'purple') {
+            window.location.href = "../pages/win.html";
+        }
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 10");
