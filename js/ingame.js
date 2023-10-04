@@ -473,7 +473,7 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 cb74.style.border = "thick solid #0000FF";
             }
 
-            if (c71.style.backgroundColor == 'purple' &&
+            if (cb71.style.backgroundColor == 'purple' &&
             cb72.style.backgroundColor == 'purple' &&
             cb73.style.backgroundColor == 'purple' &&
             cb74.style.backgroundColor == 'purple') {

@@ -493,3 +493,11 @@ body {
 .btn-play-again {
     scale: .6;
 }
+
+.text-warning {
+    color: red;
+}
+
+.text-yellow{
+    color: yellow;
+}
