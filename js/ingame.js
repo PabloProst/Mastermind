@@ -36,10 +36,89 @@ const cb32 = document.getElementById('check-box-3-2');
 const cb33 = document.getElementById('check-box-3-3');
 const cb34 = document.getElementById('check-box-3-4');
 
+/* CUARTA ROW */
 
+const bb41 = document.getElementById('board-box-4-1');
+const bb42 = document.getElementById('board-box-4-2');
+const bb43 = document.getElementById('board-box-4-3');
+const bb44 = document.getElementById('board-box-4-4');
 
+const cb41 = document.getElementById('check-box-4-1');
+const cb42 = document.getElementById('check-box-4-2');
+const cb43 = document.getElementById('check-box-4-3');
+const cb44 = document.getElementById('check-box-4-4');
 
+/* QUINTA ROW */
 
+const bb51 = document.getElementById('board-box-5-1');
+const bb52 = document.getElementById('board-box-5-2');
+const bb53 = document.getElementById('board-box-5-3');
+const bb54 = document.getElementById('board-box-5-4');
+
+const cb51 = document.getElementById('check-box-5-1');
+const cb52 = document.getElementById('check-box-5-2');
+const cb53 = document.getElementById('check-box-5-3');
+const cb54 = document.getElementById('check-box-5-4');
+
+/* SEXTA ROW */
+
+const bb61 = document.getElementById('board-box-6-1');
+const bb62 = document.getElementById('board-box-6-2');
+const bb63 = document.getElementById('board-box-6-3');
+const bb64 = document.getElementById('board-box-6-4');
+
+const cb61 = document.getElementById('check-box-6-1');
+const cb62 = document.getElementById('check-box-6-2');
+const cb63 = document.getElementById('check-box-6-3');
+const cb64 = document.getElementById('check-box-6-4');
+
+/* SEPTIMA ROW */
+
+const bb71 = document.getElementById('board-box-7-1');
+const bb72 = document.getElementById('board-box-7-2');
+const bb73 = document.getElementById('board-box-7-3');
+const bb74 = document.getElementById('board-box-7-4');
+
+const cb71 = document.getElementById('check-box-7-1');
+const cb72 = document.getElementById('check-box-7-2');
+const cb73 = document.getElementById('check-box-7-3');
+const cb74 = document.getElementById('check-box-7-4');
+
+/* OCTAVA ROW */
+
+const bb81 = document.getElementById('board-box-8-1');
+const bb82 = document.getElementById('board-box-8-2');
+const bb83 = document.getElementById('board-box-8-3');
+const bb84 = document.getElementById('board-box-8-4');
+
+const cb81 = document.getElementById('check-box-8-1');
+const cb82 = document.getElementById('check-box-8-2');
+const cb83 = document.getElementById('check-box-8-3');
+const cb84 = document.getElementById('check-box-8-4');
+
+/* NOVENA ROW */
+
+const bb91 = document.getElementById('board-box-9-1');
+const bb92 = document.getElementById('board-box-9-2');
+const bb93 = document.getElementById('board-box-9-3');
+const bb94 = document.getElementById('board-box-9-4');
+
+const cb91 = document.getElementById('check-box-9-1');
+const cb92 = document.getElementById('check-box-9-2');
+const cb93 = document.getElementById('check-box-9-3');
+const cb94 = document.getElementById('check-box-9-4');
+
+/* DECIMA ROW */
+
+const bb101 = document.getElementById('board-box-10-1');
+const bb102 = document.getElementById('board-box-10-2');
+const bb103 = document.getElementById('board-box-10-3');
+const bb104 = document.getElementById('board-box-10-4');
+
+const cb101 = document.getElementById('check-box-10-1');
+const cb102 = document.getElementById('check-box-10-2');
+const cb103 = document.getElementById('check-box-10-3');
+const cb104 = document.getElementById('check-box-10-4');
 
 /* PINTAR LOS DIVS DE LOS COLORES ELEGIDOS IN GAME */
 
@@ -285,6 +364,176 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             checkIndex = checkIndex + 1;
             console.log(checkIndex)
             console.log("termine la row 5");
+            break;
+
+            case 6:
+            if (rgbToHex(bb61.style.backgroundColor) === winningCombination[0]) {
+                cb61.style.backgroundColor = 'purple';
+                cb61.style.border = "thick solid #0000FF";
+            } else {
+                cb61.style.backgroundColor = 'white';
+                cb61.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb62.style.backgroundColor) === winningCombination[1]) {
+                cb62.style.backgroundColor = 'purple';
+                cb62.style.border = "thick solid #0000FF";
+            } else {
+                cb62.style.backgroundColor = 'white';
+                cb62.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb63.style.backgroundColor) === winningCombination[2]) {
+                cb63.style.backgroundColor = 'purple';
+                cb63.style.border = "thick solid #0000FF";
+            } else {
+                cb63.style.backgroundColor = 'white';
+                cb63.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb64.style.backgroundColor) === winningCombination[3]) {
+                cb64.style.backgroundColor = 'purple';
+                cb64.style.border = "thick solid #0000FF";
+            } else {
+                cb64.style.backgroundColor = 'white';
+                cb64.style.border = "thick solid #0000FF";
+            }
+            checkIndex = checkIndex + 1;
+            console.log(checkIndex)
+            console.log("termine la row 6");
+            break;
+
+            case 7:
+            if (rgbToHex(bb71.style.backgroundColor) === winningCombination[0]) {
+                cb71.style.backgroundColor = 'purple';
+                cb71.style.border = "thick solid #0000FF";
+            } else {
+                cb71.style.backgroundColor = 'white';
+                cb71.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb72.style.backgroundColor) === winningCombination[1]) {
+                cb72.style.backgroundColor = 'purple';
+                cb72.style.border = "thick solid #0000FF";
+            } else {
+                cb72.style.backgroundColor = 'white';
+                cb72.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb73.style.backgroundColor) === winningCombination[2]) {
+                cb73.style.backgroundColor = 'purple';
+                cb73.style.border = "thick solid #0000FF";
+            } else {
+                cb73.style.backgroundColor = 'white';
+                cb73.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb74.style.backgroundColor) === winningCombination[3]) {
+                cb74.style.backgroundColor = 'purple';
+                cb74.style.border = "thick solid #0000FF";
+            } else {
+                cb74.style.backgroundColor = 'white';
+                cb74.style.border = "thick solid #0000FF";
+            }
+            checkIndex = checkIndex + 1;
+            console.log(checkIndex)
+            console.log("termine la row 7");
+            break;
+
+            case 8:
+            if (rgbToHex(bb81.style.backgroundColor) === winningCombination[0]) {
+                cb81.style.backgroundColor = 'purple';
+                cb81.style.border = "thick solid #0000FF";
+            } else {
+                cb81.style.backgroundColor = 'white';
+                cb81.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb82.style.backgroundColor) === winningCombination[1]) {
+                cb82.style.backgroundColor = 'purple';
+                cb82.style.border = "thick solid #0000FF";
+            } else {
+                cb82.style.backgroundColor = 'white';
+                cb82.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb83.style.backgroundColor) === winningCombination[2]) {
+                cb83.style.backgroundColor = 'purple';
+                cb83.style.border = "thick solid #0000FF";
+            } else {
+                cb83.style.backgroundColor = 'white';
+                cb83.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb84.style.backgroundColor) === winningCombination[3]) {
+                cb84.style.backgroundColor = 'purple';
+                cb84.style.border = "thick solid #0000FF";
+            } else {
+                cb84.style.backgroundColor = 'white';
+                cb84.style.border = "thick solid #0000FF";
+            }
+            checkIndex = checkIndex + 1;
+            console.log(checkIndex)
+            console.log("termine la row 8");
+            break;
+
+            case 9:
+            if (rgbToHex(bb91.style.backgroundColor) === winningCombination[0]) {
+                cb91.style.backgroundColor = 'purple';
+                cb91.style.border = "thick solid #0000FF";
+            } else {
+                cb91.style.backgroundColor = 'white';
+                cb91.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb92.style.backgroundColor) === winningCombination[1]) {
+                cb92.style.backgroundColor = 'purple';
+                cb92.style.border = "thick solid #0000FF";
+            } else {
+                cb92.style.backgroundColor = 'white';
+                cb92.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb93.style.backgroundColor) === winningCombination[2]) {
+                cb93.style.backgroundColor = 'purple';
+                cb93.style.border = "thick solid #0000FF";
+            } else {
+                cb93.style.backgroundColor = 'white';
+                cb93.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb94.style.backgroundColor) === winningCombination[3]) {
+                cb94.style.backgroundColor = 'purple';
+                cb94.style.border = "thick solid #0000FF";
+            } else {
+                cb94.style.backgroundColor = 'white';
+                cb94.style.border = "thick solid #0000FF";
+            }
+            checkIndex = checkIndex + 1;
+            console.log(checkIndex)
+            console.log("termine la row 9");
+            break;
+
+            case 10:
+            if (rgbToHex(bb101.style.backgroundColor) === winningCombination[0]) {
+                cb101.style.backgroundColor = 'purple';
+                cb101.style.border = "thick solid #0000FF";
+            } else {
+                cb101.style.backgroundColor = 'white';
+                cb101.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb52.style.backgroundColor) === winningCombination[1]) {
+                cb102.style.backgroundColor = 'purple';
+                cb102.style.border = "thick solid #0000FF";
+            } else {
+                cb102.style.backgroundColor = 'white';
+                cb102.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb103.style.backgroundColor) === winningCombination[2]) {
+                cb103.style.backgroundColor = 'purple';
+                cb103.style.border = "thick solid #0000FF";
+            } else {
+                cb103.style.backgroundColor = 'white';
+                cb103.style.border = "thick solid #0000FF";
+            }
+            if (rgbToHex(bb104.style.backgroundColor) === winningCombination[3]) {
+                cb104.style.backgroundColor = 'purple';
+                cb104.style.border = "thick solid #0000FF";
+            } else {
+                cb104.style.backgroundColor = 'white';
+                cb104.style.border = "thick solid #0000FF";
+            }
+            checkIndex = checkIndex + 1;
+            console.log(checkIndex)
+            console.log("termine la row 10");
             break;
     }
 });
