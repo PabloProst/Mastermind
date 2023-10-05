@@ -146,7 +146,7 @@ miDiv4.style.backgroundColor = arrayColour4;
 
 /* FUNCION DE PINTAR DIVS POR FILA */
 
-let selectedColor = null;
+let selectedColor;
 let currentRow = 1;
 
 const colorSelectors = document.querySelectorAll('.my-chosen-colours');
