@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/Public-pixel" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <title>Select a color</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-color-pick">
+            <div class="choose-color-text">CHOOSE YOUR COLOURS</div>
+        </div>
+        <div class="color-sample">
+            <div class="color-copy" id="colorCopy1"></div>
+            <div class="color-copy" id="colorCopy2"></div>
+            <div class="color-copy" id="colorCopy3"></div>
+            <div class="color-copy" id="colorCopy4"></div>
+        </div>
+        <div class="color-pick">
+            <input type="color" class="color-picker" id="colorPick1">
+            <input type="color" class="color-picker" id="colorPick2">
+            <input type="color" class="color-picker" id="colorPick3">
+            <input type="color" class="color-picker" id="colorPick4">
+        </div>
+        <div class="container-btn-colorpick">
+            <a href="./nickname.html"><button class="btn-game">Back</button></a>
+            <button class="btn-game" onclick="saveColoursAndRedirect()">Play</button>
+        </div>
+    </div>
+    <script src="../js/impossible.js"></script>
+</body>
+
+</html>

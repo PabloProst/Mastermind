@@ -9,3 +9,7 @@ easy.addEventListener('click', () => {
 hard.addEventListener('click', () => {
     window.location.href = "../pages/colorselecthard.html";
 });
+
+impossible.addEventListener('click', () => {
+    window.location.href = "../pages/colorselectimpossible.html";
+});
