@@ -5,3 +5,7 @@ const impossible = document.getElementById('impossible');
 easy.addEventListener('click', () => {
     window.location.href = "../pages/colorselect.html";
 });
+
+hard.addEventListener('click', () => {
+    window.location.href = "../pages/colorselecthard.html";
+});

@@ -535,3 +535,10 @@ body {
 .btn-back-difficulty {
     width: 90vw;
 }
+
+
+/* HARDMODE */
+
+.space-hardmode{
+    height: 10em;
+}
