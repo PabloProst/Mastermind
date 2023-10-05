@@ -501,3 +501,32 @@ body {
 .text-yellow{
     color: yellow;
 }
+
+/* SELECT DIFFICULTY html */
+
+.container-main-difficulty {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.difficulty-text {
+    color: white;
+    margin: 20px;
+    font-family: 'Public Pixel', sans-serif;
+    font-size: 50px;
+}
+
+.difficulty-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-div-difficulty {
+    margin: 40px;
+}

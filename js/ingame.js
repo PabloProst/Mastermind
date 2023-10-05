@@ -120,10 +120,9 @@ const cb102 = document.getElementById('check-box-10-2');
 const cb103 = document.getElementById('check-box-10-3');
 const cb104 = document.getElementById('check-box-10-4');
 
-/* PINTAR LOS DIVS DE LOS COLORES ELEGIDOS IN GAME */
-
 const arrayChosenColoursString = localStorage.getItem('chosenColours');
 const arrayChosenColours = JSON.parse(arrayChosenColoursString);
+
 const miDiv1 = document.getElementById('colour-in-game1');
 const miDiv2 = document.getElementById('colour-in-game2');
 const miDiv3 = document.getElementById('colour-in-game3');
