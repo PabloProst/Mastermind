@@ -511,6 +511,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 90vh;
 }
 
 .difficulty-text {
@@ -529,4 +530,8 @@ body {
 
 .btn-div-difficulty {
     margin: 40px;
+}
+
+.btn-back-difficulty {
+    width: 90vw;
 }
