@@ -192,8 +192,6 @@ function rgbToHex(rgb) {
 let checkIndex = 1;
 
 document.getElementById('checkbtn').addEventListener('click', () => {
-    console.log(winningCombination);
-    console.log(bb11.style.backgroundColor);
     switch (checkIndex) {
         case 1:
             if (rgbToHex(bb11.style.backgroundColor) === winningCombination[0]) {

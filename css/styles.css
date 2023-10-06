@@ -2,21 +2,21 @@
 
 @media only screen and (max-width: 990px) {
     html {
-      font-size: 0.7em;
+        font-size: 0.7em;
     }
-  }
-  
-  @media only screen and (max-width: 750px) {
+}
+
+@media only screen and (max-width: 750px) {
     html {
-      font-size: 0.5em;
+        font-size: 0.5em;
     }
-  }
-  
-  @media only screen and (max-width: 680px) {
+}
+
+@media only screen and (max-width: 680px) {
     html {
-      font-size: 0.33em;
+        font-size: 0.33em;
     }
-  }
+}
 
 /* INDEX html */
 
@@ -354,14 +354,14 @@ body {
     flex-direction: column;
 }
 
-.chousen-colours-container{
+.chousen-colours-container {
     display: flex;
     height: 20em;
     width: 25em;
     align-items: flex-end;
 }
 
-.my-chosen-colours{
+.my-chosen-colours {
     height: 5em;
     width: 5em;
     border: solid 3px rgb(255, 255, 255);
@@ -369,18 +369,18 @@ body {
     cursor: pointer;
 }
 
-.my-chosen-colours:hover{
+.my-chosen-colours:hover {
     scale: .9;
 }
 
-.button-container-board{
+.button-container-board {
     display: flex;
     width: 25em;
     height: 20em;
     justify-content: center;
 }
 
-.container-btn-back{
+.container-btn-back {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -389,7 +389,7 @@ body {
     margin-top: 100px;
 }
 
-.btn-check-board{
+.btn-check-board {
     scale: .8;
     border-radius: 25%;
     height: 5em;
@@ -406,7 +406,7 @@ body {
     scale: .82;
 }
 
-.btn-back-board{
+.btn-back-board {
     scale: .8;
 }
 
@@ -464,7 +464,7 @@ body {
     align-items: center;
 }
 
-.winner-main{
+.winner-main {
     height: 40em;
     width: 40em;
     background-color: black;
@@ -476,13 +476,13 @@ body {
     align-items: center;
 }
 
-.text-winner{
+.text-winner {
     font-family: 'Public Pixel', sans-serif;
     font-size: 40px;
     color: whitesmoke;
 }
 
-.winner-main-2{
+.winner-main-2 {
     margin: -100px;
     height: 20em;
     display: flex;
@@ -498,7 +498,7 @@ body {
     color: red;
 }
 
-.text-yellow{
+.text-yellow {
     color: yellow;
 }
 
@@ -539,7 +539,7 @@ body {
 
 /* HARDMODE */
 
-.space-hardmode{
+.space-hardmode {
     height: 10em;
 }
 
