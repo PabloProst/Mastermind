@@ -1,4 +1,4 @@
-<!-- <link href="https://fonts.cdnfonts.com/css/Public-pixel" rel="stylesheet"> -->
+<link href="https://fonts.cdnfonts.com/css/Public-pixel" rel="stylesheet">
 <p align="center">_______________________________________________________________</p>
 <h1 style="text-align: center; font-family:'Public pixel'; background-image: linear-gradient(45deg, green, blue, red); -webkit-background-clip: text; color: transparent; font-size: 2em;">♠️ <u>MASTERMIND</u> ♠️</h1>
 <p align="center">_______________________________________________________________</p>
@@ -59,4 +59,4 @@
 <h1 style="text-align: center; font-family:'Public pixel'; background-image: linear-gradient(45deg, red, blue, purple); -webkit-background-clip: text; color: transparent; font-size: 2em;">♠️ <u>SKILLS</u> ♠️</h1>
 
 
-![My Skills](https://skills.thijs.gg/icons?i=html,js,css)
+![My Skills](https://skills.thijs.gg/icons?i=html,js,css){width=50% style="margin-left:200px;"}
