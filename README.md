@@ -1,5 +1,5 @@
 <p align="center">_______________________________________________________________</p>
-<h1 align= "center" style = "text; color: ; font-size: 2em;">♠️ <u>MASTERMIND</u> ♠️</h1>
+<h1 align= "center" style = "text; color: green; font-size: 2em;">♠️ <u>MASTERMIND</u> ♠️</h1>
 <p align="center">_______________________________________________________________</p>
 
 <strong>[pabloprost.github.io/Mastermind/](pabloprost.github.io/Mastermind/) < Ir al proyecto (MASTERMIND).</strong></br>
@@ -13,7 +13,7 @@
 #####El Mastermind es un juego clásico para un jugador que consiste en descubrir la combinación secreta de colores oculto creada a partir de los colores elegidos por el jugador.
 </br>
 <p align="center">_______________________________________________________________</p>
-<h1 align= "center" style = "text; color: ; font-size: 2em;">♠️ <u>ABOUT</u> ♠️</h1>
+<h1 align= "center" style = "text; color: blue; font-size: 2em;">♠️ <u>ABOUT</u> ♠️</h1>
 
 ![ABOUT](img/about.png)
 
@@ -21,7 +21,7 @@
 </br>
 <p align="center">_______________________________________________________________</p>
 
-<h1 align= "center" style = "text; color: ; font-size: 2em;">♠️ <u>NICKNAME</u> ♠️</h1>
+<h1 align= "center" style = "text; color: red; font-size: 2em;">♠️ <u>NICKNAME</u> ♠️</h1>
 
 ![NICKNAME](img/nickname.png)
 
@@ -29,7 +29,7 @@
 </br>
 <p align="center">_______________________________________________________________</p>
 
-<h1 align= "center" style = "text; color: ; font-size: 2em;">♠️ <u>DIFFICULTY</u> ♠️</h1>
+<h1 align= "center" style = "text; color: blue; font-size: 2em;">♠️ <u>DIFFICULTY</u> ♠️</h1>
 
 ![DIFFICULTY](img/difficulty.png)
 
@@ -38,7 +38,7 @@
 
 <p align="center">_______________________________________________________________</p>
 
-<h1 align= "center" style = "text; color: ; font-size: 2em;">♠️ <u>COLOUR SELECTION</u> ♠️</h1>
+<h1 align= "center" style = "text; color: red; font-size: 2em;">♠️ <u>COLOUR SELECTION</u> ♠️</h1>
 
 ![COLOURSELECTION](img/colourselection.png)
 
@@ -46,7 +46,7 @@
 </br>
 <p align="center">_______________________________________________________________</p>
 
-<h1 align= "center" style = "text; color: ; font-size: 2em;">♠️ <u>IN GAME</u> ♠️</h1>
+<h1 align= "center" style = "text; color: blue; font-size: 2em;">♠️ <u>IN GAME</u> ♠️</h1>
 
 ![EASYMODE](img/easymode.png)
 
@@ -56,7 +56,7 @@
 
 
 
-<h1 align= "center" style = "text; color: ; font-size: 2em;">♠️ <u>SKILLS</u> ♠️</h1>
+<h1 align= "center" style = "text; color: red; font-size: 2em;">♠️ <u>SKILLS</u> ♠️</h1>
 
 
 ✦ ![My Skills](https://skills.thijs.gg/icons?i=html) HTML
