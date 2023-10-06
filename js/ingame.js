@@ -186,8 +186,6 @@ function rgbToHex(rgb) {
     return `#${(1 << 24 | hex[1] << 16 | hex[2] << 8 | hex[3]).toString(16).slice(1)}`;
 }
 
-
-
 // const checkBtn = document.getElementById('checkbtn');
 let checkIndex = 1;
 
@@ -231,8 +229,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 1");
             break;
 
         case 2:
@@ -272,8 +268,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 2");
             break;
 
         case 3:
@@ -313,8 +307,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 3");
             break;
 
         case 4:
@@ -354,8 +346,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 4");
             break;
 
         case 5:
@@ -395,8 +385,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 5");
             break;
 
         case 6:
@@ -436,8 +424,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 6");
             break;
 
         case 7:
@@ -477,8 +463,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 7");
             break;
 
         case 8:
@@ -518,8 +502,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 8");
             break;
 
         case 9:
@@ -559,8 +541,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 9");
             break;
 
         case 10:
@@ -602,8 +582,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/loose.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 10");
             break;
     }
 });

@@ -27,8 +27,6 @@ const saveColours = () => {
     const color4 = document.getElementById('colorPick4').value;
 
     arrayChosenColours.push(color1, color2, color3, color4);
-    console.log(`Colores guardados ${arrayChosenColours}`);
-    console.log(arrayChosenColours);
 
     const arrayChosenColoursString = JSON.stringify(arrayChosenColours);
     localStorage.setItem('chosenColours', arrayChosenColoursString);
@@ -44,7 +42,6 @@ const randomWinningArray = (colours) => {
 }
 
 const randomCombination = randomWinningArray(arrayChosenColours);
-console.log('Combinación aleatoria:', randomCombination);
 
 const saveColoursAndRedirect = () => {
     saveColours();
@@ -61,7 +58,6 @@ const saveColoursAndRedirect = () => {
     } else {
 
         const randomCombination = randomWinningArray(arrayChosenColours);
-        console.log('Combinación aleatoria:', randomCombination);
 
         window.location.href = "../pages/boardimpossible.html";
         localStorage.setItem('winningCombination', JSON.stringify(randomCombination));

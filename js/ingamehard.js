@@ -60,66 +60,6 @@ const cb52 = document.getElementById('check-box-5-2');
 const cb53 = document.getElementById('check-box-5-3');
 const cb54 = document.getElementById('check-box-5-4');
 
-/* SEXTA ROW */
-
-const bb61 = document.getElementById('board-box-6-1');
-const bb62 = document.getElementById('board-box-6-2');
-const bb63 = document.getElementById('board-box-6-3');
-const bb64 = document.getElementById('board-box-6-4');
-
-const cb61 = document.getElementById('check-box-6-1');
-const cb62 = document.getElementById('check-box-6-2');
-const cb63 = document.getElementById('check-box-6-3');
-const cb64 = document.getElementById('check-box-6-4');
-
-/* SEPTIMA ROW */
-
-const bb71 = document.getElementById('board-box-7-1');
-const bb72 = document.getElementById('board-box-7-2');
-const bb73 = document.getElementById('board-box-7-3');
-const bb74 = document.getElementById('board-box-7-4');
-
-const cb71 = document.getElementById('check-box-7-1');
-const cb72 = document.getElementById('check-box-7-2');
-const cb73 = document.getElementById('check-box-7-3');
-const cb74 = document.getElementById('check-box-7-4');
-
-/* OCTAVA ROW */
-
-const bb81 = document.getElementById('board-box-8-1');
-const bb82 = document.getElementById('board-box-8-2');
-const bb83 = document.getElementById('board-box-8-3');
-const bb84 = document.getElementById('board-box-8-4');
-
-const cb81 = document.getElementById('check-box-8-1');
-const cb82 = document.getElementById('check-box-8-2');
-const cb83 = document.getElementById('check-box-8-3');
-const cb84 = document.getElementById('check-box-8-4');
-
-/* NOVENA ROW */
-
-const bb91 = document.getElementById('board-box-9-1');
-const bb92 = document.getElementById('board-box-9-2');
-const bb93 = document.getElementById('board-box-9-3');
-const bb94 = document.getElementById('board-box-9-4');
-
-const cb91 = document.getElementById('check-box-9-1');
-const cb92 = document.getElementById('check-box-9-2');
-const cb93 = document.getElementById('check-box-9-3');
-const cb94 = document.getElementById('check-box-9-4');
-
-/* DECIMA ROW */
-
-const bb101 = document.getElementById('board-box-10-1');
-const bb102 = document.getElementById('board-box-10-2');
-const bb103 = document.getElementById('board-box-10-3');
-const bb104 = document.getElementById('board-box-10-4');
-
-const cb101 = document.getElementById('check-box-10-1');
-const cb102 = document.getElementById('check-box-10-2');
-const cb103 = document.getElementById('check-box-10-3');
-const cb104 = document.getElementById('check-box-10-4');
-
 const arrayChosenColoursString = localStorage.getItem('chosenColours');
 const arrayChosenColours = JSON.parse(arrayChosenColoursString);
 
@@ -192,8 +132,6 @@ function rgbToHex(rgb) {
 let checkIndex = 1;
 
 document.getElementById('checkbtn').addEventListener('click', () => {
-    console.log(winningCombination);
-    console.log(bb11.style.backgroundColor);
     switch (checkIndex) {
         case 1:
             if (rgbToHex(bb11.style.backgroundColor) === winningCombination[0]) {
@@ -233,8 +171,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 1");
             break;
 
         case 2:
@@ -274,8 +210,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
             }
 
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 2");
             break;
 
         case 3:
@@ -315,8 +249,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 3");
             break;
 
         case 4:
@@ -356,8 +288,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/win.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 4");
             break;
 
         case 5:
@@ -399,8 +329,6 @@ document.getElementById('checkbtn').addEventListener('click', () => {
                 window.location.href = "../pages/loose.html";
             }
             checkIndex = checkIndex + 1;
-            console.log(checkIndex)
-            console.log("termine la row 5");
             break;
     }
 });

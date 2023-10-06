@@ -44,7 +44,6 @@ const randomWinningArray = (colours) => {
 }
 
 const randomCombination = randomWinningArray(arrayChosenColours);
-console.log('Combinación aleatoria:', randomCombination);
 
 const saveColoursAndRedirect = () => {
     saveColours();
