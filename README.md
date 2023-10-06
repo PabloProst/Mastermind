@@ -10,7 +10,7 @@
 <h4>✦ Este proyecto fue realizado por Pablo Ezequiel Prost, alumno del Bootcamp Full Stack Developer de Valencia, 2023.</h4>
 
 ![MAIN PAGE](img/mainpage.png)
-#####El Mastermind es un juego clásico para un jugador que consiste en descubrir la combinación secreta de colores oculto creada a partir de los colores elegidos por el jugador.
+##### ✦ El Mastermind es un juego clásico para un jugador que consiste en descubrir la combinación secreta de colores oculto creada a partir de los colores elegidos por el jugador.
 </br>
 <p align="center">_______________________________________________________________</p>
 <h1 align= "center" style = "text; color: blue; font-size: 2em;">♠️ <u>ABOUT</u> ♠️</h1>
